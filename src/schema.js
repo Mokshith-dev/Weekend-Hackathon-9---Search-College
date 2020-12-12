@@ -10,4 +10,35 @@ const collegeSchema = new Schema({
     course: Schema.Types.String
 })
 
+// const collegeSchema = new Schema({
+//     name: {
+//         type: String,
+//         default: {"$regex": /.*/}
+//     },
+//     state: {
+//         type: String,
+//         default: {"$regex": /.*/}
+//     },
+//     minPackage: {
+//         type: Number,
+//         default: 0
+//     },
+//     maxFees: {
+//         type: Number,
+//         default: 100
+//     },
+//     city: {
+//         type: String,
+//         default: {"$regex": /.*/}
+//     },
+//     exam: {
+//         type: Array,
+//         default: {"$regex": /.*/}
+//     },
+//     course: {
+//         type: String,
+//         default: {"$regex": /.*/}
+//     },
+    
+// })
 exports.collegeSchema = collegeSchema;
